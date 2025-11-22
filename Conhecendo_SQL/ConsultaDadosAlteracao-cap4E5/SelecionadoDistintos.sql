@@ -1,0 +1,41 @@
+SELECT DISTINCT[SABOR]
+FROM [TABELA DE PRODUTOS] 
+SELECT * FROM [TABELA DE PRODUTOS];
+
+TRUNCATE TABLE [TABELA DE PRODUTOS]; 
+INSERT INTO [TABELA DE PRODUTOS] ([CODIGO DO PRODUTO], [NOME DO PRODUTO] ,[EMBALAGEM], [TAMANHO], [SABOR], [PRECO DE LISTA]) VALUES
+('1000889', 'Sabor da Montanha 700 ml Uva', 'Garrafa', '700 ml', 'Uva', 6.31),
+('1002334', 'Linha Citros - 1 Litro - Lima/Limão', 'PET', '1 Litro', 'Lima/Limão', 7.00),
+('1002767', 'Videira do Campo - 700 ml - Cereja/Maça', 'Garrafa', '700 ml', 'Cereja/Maça', 8.41),
+('1004327', 'Videira do Campo 1,5 Litros Melancia', 'PET', '1,5 Litros', 'Melancia', 19.51),
+('1013793', 'Videira do Campo - 2 Litros - Cereja/Maça', 'PET', '2 Litros', 'Cereja/Maça', 24.01),
+('1022450', 'Festival de Sabores - 2 Litros - Açai', 'PET', '2 Litros', 'Açai', 38.01),
+('1040107', 'Light 350 ml - Melancia', 'Lata', '350 ml', 'Melancia', 4.56),
+('1041119', 'Linha Citros - 700 ml - Lima/Limão', 'Garrafa', '700 ml', 'Lima/Limão', 4.90),
+('1042712', 'Linha Citros - 700 ml - Limão', 'Garrafa', '700 ml', 'Limão', 4.90),
+('1051518', 'Frescor do Verão - 470 ml - Limão', 'Garrafa', '470 ml', 'Limão', 3.29),
+('1078680', 'Frescor do Verão - 350 ml - Manga', 'Lata', '350 ml', 'Manga', 3.18),
+('10837797', 'Clean - 2 Litros - Laranja', 'PET', '2 Litros', 'Laranja', 16.01),
+('1086543', 'Linha Refrescante - 1 Litro - Manga', 'PET', '1 Litro', 'Manga', 11.01),
+('1088126', 'Linha Citrus 1 Litro Limão', 'PET', '1 Litro', 'Limão', 7.00),
+('1096818', 'Linha Refrescante - 700 ml - Manga', 'Garrafa', '700 ml', 'Manga', 7.71),
+('1101035', 'Linha Refrescante - 1 Litro - Morango/Limão', 'PET', '1 Litro', 'Morango/Limão', 9.01),
+('229900', 'Pedaços de Frutas - 350 ml - Maça', 'Lata', '350 ml', 'Maça', 4.21),
+('231776', 'Festival de Sabores - 700 ml - Açai', 'Garrafa', '700 ml', 'Açai', 13.31),
+('235653', 'Frescor do Verão - 350 ml - Manga', 'Lata', '350 ml', 'Manga', 3.85),
+('243083', 'Festival de Sabores - 1,5 Litros - Maracujá', 'PET', '1,5 Litros', 'Maracujá', 10.51),
+('290478', 'Videira do Campo - 350 ml - Melancia', 'Lata', '350 ml', 'Melancia', 4.56),
+('326779', 'Linha Refrescante - 1,5 Litros - Manga', 'PET', '1,5 Litros', 'Manga', 16.51),
+('394479', 'Sabor da Montanha - 700 ml - Cereja', 'Garrafa', '700 ml', 'Cereja', 8.40),
+('479745', 'Clean - 470 ml - Laranja', 'Garrafa', '470 ml', 'Laranja', 3.76),
+('520380', 'Pedaços de Frutas - 1 Litro - Maça', 'PET', '1 Litro', 'Maça', 12.01),
+('5449310', 'Frescor do Verão - 350 ml - Limão', 'Lata', '350 ml', 'Limão', 2.45),
+('695594', 'Festival de Sabores - 1,5 Litros - Açai', 'PET', '1,5 Litros', 'Açai', 28.51),
+('723457', 'Festival de Sabores - 700 ml - Maracujá', 'Garrafa', '700 ml', 'Maracujá', 4.91),
+('746596', 'Light - 1,5 Litros - Melancia', 'PET', '1,5 Litros', 'Melancia', 19.50),
+('773912', 'Clean - 1 Litro - Laranja', 'PET', '1 Litro', 'Laranja', 8.01),
+('783663', 'Sabor da Montanha - 700 ml - Morango', 'Garrafa', '700 ml', 'Morango', 7.70),
+('788975', 'Pedaços de Frutas - 1,5 Litros - Maça', 'PET', '1,5 Litros', 'Maça', 18.01),
+('812829', 'Clean - 350 ml - Laranja', 'Lata', '350 ml', 'Laranja', 2.80),
+('826490', 'Linha Refrescante - 700 ml - Morango/Limão', 'Garrafa', '700 ml', 'Morango/Limão', 6.31),
+('838819', 'Clean - 1,5 Litros - Laranja', 'PET', '1,5 Litros', 'Laranja', 12.01);
