@@ -1,8 +1,6 @@
 # 📚 Formação SQL Server 2022 — Projeto de Estudos
 
-Este repositório reúne toda a minha jornada de estudos em **Microsoft SQL Server 2022**, 
-baseada na trilha de cursos da Alura. Aqui documento meus resumos, práticas, scripts e evolução com foco
-em me tornar um **Analista de Dados** sólido e preparado para o mercado.
+Este repositório reúne toda a minha jornada de estudos em **Microsoft SQL Server 2022**, baseada na trilha de cursos da Alura. Aqui documento meus resumos, práticas, scripts e evolução com foco em me tornar um **Analista de Dados** sólido e preparado para o mercado.
 
 A formação está organizada por capítulos e pastas, seguindo a ordem dos cursos realizados.
 
@@ -35,7 +33,7 @@ A seguir, estão listados os cursos estudados até o momento, acompanhados de um
 * Uso de **operadores lógicos** para filtrar diferentes tipos de informações.
 * Processos de **deleção** e **atualização** de registros.
 
-📂 *Conteúdos detalhados na pasta: `https://github.com/martins-samuel/MicrosoftSQLServer2022/tree/main/Conhecendo_SQL`*
+📂 *Conteúdos detalhados na pasta: [01-conhecendo-sql](01-conhecendo-sql/)**
 
 ---
 
@@ -50,5 +48,4 @@ A seguir, estão listados os cursos estudados até o momento, acompanhados de um
 * Prática com diversas formas de **junções** e **uniões**.
 * Uso de várias funções fundamentais: de texto, numéricas e de data.
 
-📂 *Conteúdos detalhados na pasta: `https://github.com/martins-samuel/MicrosoftSQLServer2022/tree/main/ConsultasAvancadas`*
-
+📂 *Conteúdos detalhados na pasta: [02-consultas-avancadas](02-consultas-avancadas/)**
