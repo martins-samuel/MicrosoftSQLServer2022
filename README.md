@@ -48,7 +48,7 @@ A seguir, estão listados os cursos estudados até o momento, acompanhados de um
 * Prática com diversas formas de **junções** e **uniões**.
 * Uso de várias funções fundamentais: de texto, numéricas e de data.
 
-📂 *Conteúdos detalhados na pasta: [02-consultas-avancadas](ConsultasAvancadas)**
+📂 *Conteúdos detalhados na pasta: [02-consultas-avancadas](https://github.com/martins-samuel/MicrosoftSQLServer2022/tree/main/ConsultasAvancadas)**
 
 ---
 
