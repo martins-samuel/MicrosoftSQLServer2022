@@ -33,7 +33,7 @@ A seguir, estão listados os cursos estudados até o momento, acompanhados de um
 * Uso de **operadores lógicos** para filtrar diferentes tipos de informações.
 * Processos de **deleção** e **atualização** de registros.
 
-📂 *Conteúdos detalhados na pasta: [01-conhecendo-sql](01-conhecendo-sql/)**
+📂 *Conteúdos detalhados na pasta: [01-conhecendo-sql](https://github.com/martins-samuel/MicrosoftSQLServer2022/tree/main/Conhecendo_SQL)**
 
 ---
 
@@ -48,4 +48,19 @@ A seguir, estão listados os cursos estudados até o momento, acompanhados de um
 * Prática com diversas formas de **junções** e **uniões**.
 * Uso de várias funções fundamentais: de texto, numéricas e de data.
 
-📂 *Conteúdos detalhados na pasta: [02-consultas-avancadas](02-consultas-avancadas/)**
+📂 *Conteúdos detalhados na pasta: [02-consultas-avancadas](ConsultasAvancadas)**
+
+---
+
+
+## 📘 **Capítulo 3 — Incluindo Dados nas Tabelas**
+
+**Resumo do aprendizado:**
+
+* Inclusão de registros individuais e múltiplos com `INSERT`.
+* Importação de dados externos usando arquivos CSV e assistentes do SQL Server.
+* Leitura de dados provenientes de outros bancos dentro do SQL Server.
+* Entendimento das **restrições de integridade** e como elas afetam a inclusão de dados.
+* Identificação de erros comuns ao inserir informações fora dos padrões definidos no projeto do banco.
+
+📂 *Conteúdos detalhados na pasta: [03-incluindo-dados](https://github.com/martins-samuel/MicrosoftSQLServer2022/tree/main/ManipulandoDados)*
