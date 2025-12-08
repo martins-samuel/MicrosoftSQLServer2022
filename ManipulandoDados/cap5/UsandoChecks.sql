@@ -1,0 +1,34 @@
+create table tab_check 
+(id int not null, 
+nome varchar(50) null,
+idade int null,
+cidade varchar(50) null,
+constraint chk_idade check (idade >= 18));
+
+INSERT INTO TAB_CHECK VALUES (1,'JOÃO',19,'RIO DE JANEIRO');
+INSERT INTO TAB_CHECK VALUES (2,'PEDRO',16,'RIO DE JANIERO');
+INSERT INTO TAB_CHECK VALUES (2,'PEDRO',20,'RIO DE JANIERO');
+
+CREATE TABLE TAB_CHECK2 (
+    ID INT NOT NULL, 
+    NOME VARCHAR(50) NULL, 
+    IDADE INT NULL, 
+    CIDADE VARCHAR(50) NULL, 
+    CONSTRAINT CHK_IDADE2 CHECK (
+        (IDADE >= 18 AND CIDADE = 'RIO DE JANEIRO') 
+        OR 
+        (IDADE >= 16 AND CIDADE = 'SÃO PAULO')
+    )
+);
+
+INSERT INTO TAB_CHECK2 VALUES (
+    1, 'JOÃO', 19, 'RIO DE JANEIRO'
+);
+
+INSERT INTO TAB_CHECK2 VALUES (
+    2, 'PEDRO', 17, 'RIO DE JANEIRO'
+);
+
+INSERT INTO TAB_CHECK2 VALUES (
+    2, 'PEDRO', 17, 'SÃO PAULO'
+);
